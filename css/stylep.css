@@ -1,0 +1,144 @@
+/* RESET */
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+body{background-color: black;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+.container{width: 100%; float: left; padding:  3% 4%; text-align: center; margin-bottom: 15%; }
+
+/* Color */
+.bg-black{background-color: black}
+.bg-green{background-color: #00fa92;}
+.radius{border-radius: 7px;}
+.text-black{color: black;}
+
+
+#dev{color: rgb(255, 255, 255) !important;}
+.logo{width: 56px; height: 56px; float: left; no-repeat; font-size: 0;}
+.btn-menu{width: 56px; height: 56px; margin-top: 20px; padding: 10px; float: right; text-align: center; color: #00fa92;  cursor: pointer;}
+.btn-menu:hover{color: #131313; background-color: #00fa92;}
+
+.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.940); top: 0; left: 0;}
+.btn-close{font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
+.menu ul{width: 100%; float: left; text-align: center;}
+.menu li{padding: 1.5%;}
+.menu li a{font-size: 2em; color: #00fa92; padding: 1.5% 3%; border-radius: 7px;}
+.menu li a:hover{border: 1px solid #00fa92; background-color: #00fa92; color: rgb(0, 0, 0); border-radius: 7px; font-weight: 700;  transition: 1s ease-in-out}
+
+
+/* logo */
+
+.border{width: 100%;}
+.title{width: 80%; float: left;}
+.title h2{font-size:  2.0em; color: #00fa92; float: left;  margin-top: 25px; font-weight: 700; background-color: none;}
+
+
+/* Banner */
+.banner{width: 100%; float: left; text-align: center; margin-bottom: 10%; margin-top: 1%;}
+.banner h4{font-size: 1em;   font-family: 'Roboto mono', monospace; color: #00fa92;}
+.banner h2{font-size: 1em;   font-family: 'Roboto mono', monospace; color: #fff;}
+.banner h1{font-size: 3em; font-weight: 700;  font-family: 'Roboto', sans-serif; color: #ffffff;}
+.img-banner{width: 100%; height: 100%;}
+
+
+
+
+/* CONTEUDO PRINCIPAL */
+.descricao{width: 100%; color: #fff; text-align:center; float: center; margin-top: 1%; padding: 20px;}
+.descricao h1{font-size: 1em; color: #fff; font-weight:600;}
+.descricao h2{font-size: 1em;color: #00fa92; font-weight: 800;}
+
+@keyframes snake {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .bg-green-black {
+    background-color: rgba(8, 8, 8, 0.986);
+    border: 4px solid;
+    border-image: linear-gradient(180deg, #00fa92,  rgba(8, 8, 8, 0.986)); /* Ajuste as cores do gradiente conforme necessário */
+    border-image-slice: 1;
+    border-radius: 10px; /* Ajuste o raio conforme necessário */
+    margin-top: 30%;
+  }
+
+
+  /* Texto secungadário */
+  .text-description{color: #60d483; margin: 0; display: block;}
+  .text-description article{width: 100%; align-items: center; text-align: center; margin-right: 15px; margin-top: 17%;} 
+
+
+
+  /* Buttons */
+  .buttons{width: 100%;  text-align: center; margin-top: 10%;}
+  .buttons a{text-decoration: none; color: #00fa92;}
+
+  .btn-instagram{width: 60%; 
+    padding: 4% 3%;
+    background-color: #131313;
+     color: #00fa92; 
+     font-family: 'Roboto', sans-serif; 
+     font-weight:400; 
+     font-size: 1.2em; 
+     margin-bottom: 10px; 
+     text-align: center;  
+     margin: auto;
+    border: 1px solid #131313;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    } 
+
+    .btn-instagram:hover{
+      color: #000000;
+      transition: 1s ease-in-out;
+      background-color: #00fa92;
+    
+    }
+
+    
+
+  .btn-email{width: 60%; 
+    padding: 4% 3%; 
+    background-color: #131313; 
+    color: #00fa92; 
+    font-family: 'Roboto', sans-serif;
+     font-weight:400; 
+     font-size: 1.2em; 
+     margin-top: 3%; 
+     text-align: center;
+     border: 1px solid #131313;
+     transition: 1s ease-in-out;  
+     cursor: pointer;}
+
+  .btn-email:hover{ color: #000000;
+    transition: 1s ease-in-out;
+    background-color: #00fa92;
+  }
+
+
+  .btn-git{width: 60%; padding: 4% 3%; background-color: #131313; font-family: 'Roboto', sans-serif; font-weight:400; font-size: 1.2em;  margin-top: 3%; color: #00fa92; text-align: center; text-decoration: none;  margin-bottom: 10px;
+    border: 1px solid #131313;
+    transition: 1s ease-in-out; 
+    cursor: pointer;}
+  .btn-git:hover{color: #000000;
+    transition: 1s ease-in-out;
+    background-color: #00fa92;}
+
+
+/* quem sou */
+
+#minha-ft{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+}
+
+.quem-sou{width: 100%; }
+.quem-sou h1{color: #00fa92;  font-family: 'Montserrat' sans-serif; font-weight: 700; margin: auto; text-align: center;}
+.quem-sou article{color: #ffffff; font-family: 'Roboto' sans-serif; text-align: center; margin-top: 20px; margin-left: 20px; margin-right: 20px;}

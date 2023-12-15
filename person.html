@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Full Stack">
+    <meta name="keywords" content="Desenvolvedor Full Stack, PHP, JavaScript, HTML, CSS, Python">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gabriel Assis">
+    <link rel="shortcut icon" href="/img-portfolio/logoblack.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@300;700&family=Roboto:wght@300;700&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@300;700&family=Roboto+Mono:wght@300&family=Roboto:wght@300;700&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@300;700&family=Roboto+Mono:wght@700&family=Roboto:wght@300;700&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img-portfolio/logot.png">
+    <link rel="stylesheet" href="css/stylep.css">
+    <script src="https://kit.fontawesome.com/7829b6ee1e.js" crossorigin="anonymous"></script>
+    <style>
+        a{text-decoration: none;}
+    </style>
+    <title>DevAssis</title>
+</head>
+<body>
+    <header class="cabecalo container bg-black" >
+        <div class="title">
+            <h2>{Dev</h2><h2 id="dev">Ass</h2><h2 id="dev">is</h2><h2>}</h2>
+        </div>
+      
+        <button type="button" class="btn-menu bg-black radius"><i class="fa-solid fa-bars-staggered"></i></button>
+        <nav class="menu">
+            <a href="" class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./servicos.html">Serviços</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
+                <li><a href="./person.html">Quem sou</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="quem-sou">
+        <h1>Quem sou eu?</h1>
+        <img id="minha-ft" src="img-portfolio/eu.png" alt="Gabriel Assis" srcset="">
+        <article> <p>Olá, meu nome é Gabriel Assis e tenho 26 anos, moro em São Paulo-SP na região da zona leste.</p> <br> Curso engenharia de software e atuo na área de tecnologia como Projetista de Dados há 2 anos, desenvolvo sites, sistemas web, integrações api e analise e desenvolvimento dashboards. <br> <p>Iniciei na área de tecnologia como um analista de dados e criei uma curiosidade muito grande pelo desenvolvimento de sistemas. <br>Desde então venho aprimorando meus conhecimentos na área afim de sempre desenvolver com as melhores tecnologias.</p></article>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        })
+    </script>
+</body>
+</html>
